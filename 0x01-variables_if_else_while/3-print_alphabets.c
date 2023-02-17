@@ -22,11 +22,6 @@ int main(void)
 	while
 		(d <= 'z') {
 			putchar(d);
-			c++;
-		}
-	while
-		(d <= 'z') {
-			putchar(d);
 			d++;
 		}
 	putchar('\n');
