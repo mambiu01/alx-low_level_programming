@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _meme - a block of memory with specific value
+ * _memset - a block of memory with specific value
  * @s: starting address of memory
  * @b: the value
  * @n: number of bytes to be changed
@@ -16,6 +16,6 @@ char *_memset(char *s, char b, unsigned int n)
 		s[a] = b;
 		n--;
 	}
-	return (s) ;
+	return (s);
 }
 
